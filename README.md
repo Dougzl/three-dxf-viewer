@@ -95,9 +95,9 @@ Snaps classes can store all the vertices in an efficient way. This allows to get
 
 import { SnapsHelper } from 'three-dxf-viewer';
 
-let dxf = await new DXFViewer().getFromPath( dxfFilePath, fontPath );
+let dxf = await new DxfViewer().getFromPath(dxfFilePath, fontPath);
 
-let snaps = new SnapsHelper( dxf, renderer, scene, camera, controls );
+let snaps = new SnapsHelper(dxf, renderer, scene, camera, controls);
 
 ```
 
